@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\CarWash\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|d:\\source\\carwash\\carwash\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|d:\\source\\carwash\\carwash\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|d:\\source\\carwash\\carwash\\frminterfazusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\frminterfazusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmInterfazUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\frmInterfazUsuario.cs",
+              "RelativeDocumentMoniker": "CarWash\\frmInterfazUsuario.cs",
+              "ToolTip": "D:\\source\\CarWash\\CarWash\\frmInterfazUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CarWash\\frmInterfazUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:21:28.917Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmUsuarios.cs",
+              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\frmUsuarios.cs",
+              "RelativeDocumentMoniker": "CarWash\\frmUsuarios.cs",
+              "ToolTip": "D:\\source\\CarWash\\CarWash\\frmUsuarios.cs",
+              "RelativeToolTip": "CarWash\\frmUsuarios.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA6wC4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:04:04.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\frmUsuarios.cs",
+              "RelativeDocumentMoniker": "CarWash\\frmUsuarios.cs",
+              "ToolTip": "D:\\source\\CarWash\\CarWash\\frmUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CarWash\\frmUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:25:19.672Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

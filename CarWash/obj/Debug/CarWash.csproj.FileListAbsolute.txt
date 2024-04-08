@@ -1,0 +1,14 @@
+D:\source\CarWash\CarWash\bin\Debug\CarWash.exe.config
+D:\source\CarWash\CarWash\bin\Debug\CarWash.exe
+D:\source\CarWash\CarWash\bin\Debug\CarWash.pdb
+D:\source\CarWash\CarWash\bin\Debug\FontAwesome.Sharp.dll
+D:\source\CarWash\CarWash\bin\Debug\Guna.UI2.dll
+D:\source\CarWash\CarWash\obj\Debug\CarWash.csproj.AssemblyReference.cache
+D:\source\CarWash\CarWash\obj\Debug\CarWash.Properties.Resources.resources
+D:\source\CarWash\CarWash\obj\Debug\CarWash.csproj.GenerateResource.cache
+D:\source\CarWash\CarWash\obj\Debug\CarWash.csproj.CoreCompileInputs.cache
+D:\source\CarWash\CarWash\obj\Debug\CarWash.csproj.Up2Date
+D:\source\CarWash\CarWash\obj\Debug\CarWash.exe
+D:\source\CarWash\CarWash\obj\Debug\CarWash.pdb
+D:\source\CarWash\CarWash\obj\Debug\CarWash.frmUsuarios.resources
+D:\source\CarWash\CarWash\obj\Debug\CarWash.frmInterfazUsuario.resources
