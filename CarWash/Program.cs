@@ -1,4 +1,8 @@
-﻿using System;
+﻿using CarWash.Forms;
+using CarWash.Forms.Cajas;
+using CarWash.Forms.Configuraciones;
+using CarWash.Forms.Productos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,7 +17,7 @@ namespace CarWash {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault( false );
-            Application.Run( new frmUsuarios() );
+            Application.Run( new frmProductos() );
         }
     }
 }

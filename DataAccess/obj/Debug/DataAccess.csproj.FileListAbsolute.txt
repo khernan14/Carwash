@@ -1,0 +1,10 @@
+D:\source\CarWash\DataAccess\bin\Debug\DataAccess.dll
+D:\source\CarWash\DataAccess\bin\Debug\DataAccess.pdb
+D:\source\CarWash\DataAccess\bin\Debug\Common.dll
+D:\source\CarWash\DataAccess\bin\Debug\Guna.UI2.dll
+D:\source\CarWash\DataAccess\bin\Debug\Common.pdb
+D:\source\CarWash\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\source\CarWash\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\source\CarWash\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
+D:\source\CarWash\DataAccess\obj\Debug\DataAccess.dll
+D:\source\CarWash\DataAccess\obj\Debug\DataAccess.pdb

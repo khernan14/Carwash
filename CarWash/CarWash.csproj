@@ -59,24 +59,106 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmInterfazUsuario.cs">
+    <Compile Include="Custom Controls\AlertBoxs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInterfazUsuario.Designer.cs">
+    <Compile Include="Custom Controls\AlertBoxs.Designer.cs">
+      <DependentUpon>AlertBoxs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\WaitForm.Designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\WaitFormFunc.cs" />
+    <Compile Include="Forms\Cajas\frmAperturaCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cajas\frmAperturaCaja.Designer.cs">
+      <DependentUpon>frmAperturaCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cajas\frmCierreCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cajas\frmCierreCaja.Designer.cs">
+      <DependentUpon>frmCierreCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Configuraciones\frmConexionManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Configuraciones\frmConexionManual.Designer.cs">
+      <DependentUpon>frmConexionManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Principal\frmPrincipalVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Principal\frmPrincipalVentas.Designer.cs">
+      <DependentUpon>frmPrincipalVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Productos\frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Productos\frmProductos.Designer.cs">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Usuarios\frmInterfazUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Usuarios\frmInterfazUsuario.Designer.cs">
       <DependentUpon>frmInterfazUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUsuarios.cs">
+    <Compile Include="Forms\Login\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmUsuarios.Designer.cs">
+    <Compile Include="Forms\Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Usuarios\frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Usuarios\frmUsuarios.Designer.cs">
       <DependentUpon>frmUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmInterfazUsuario.resx">
+    <EmbeddedResource Include="Custom Controls\AlertBoxs.resx">
+      <DependentUpon>AlertBoxs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cajas\frmAperturaCaja.resx">
+      <DependentUpon>frmAperturaCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cajas\frmCierreCaja.resx">
+      <DependentUpon>frmCierreCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Configuraciones\frmConexionManual.resx">
+      <DependentUpon>frmConexionManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Principal\frmPrincipalVentas.resx">
+      <DependentUpon>frmPrincipalVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Productos\frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Usuarios\frmInterfazUsuario.resx">
       <DependentUpon>frmInterfazUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUsuarios.resx">
+    <EmbeddedResource Include="Forms\Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Usuarios\frmUsuarios.resx">
       <DependentUpon>frmUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -87,6 +169,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -101,6 +184,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{44c8a10b-8459-4657-80d1-51cc7f92f1ea}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{BC81D573-4BC6-44AB-8BC6-A0B067D41BD3}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Forms\Login\Correo.html" />
+    <None Include="Resources\Error.png" />
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\information.png" />
+    <None Include="Resources\success.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
