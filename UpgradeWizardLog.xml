@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\source\CarWash\CarWash\CarWash.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\source\CarWash\CarWash\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\source\CarWash\CarWash\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\source\CarWash\CarWash\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\source\CarWash\CarWash\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\source\CarWash\CarWash\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\source\CarWash\CarWash\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="D:\source\CarWash\CarWash\App.config" />
+  <event action="Analyze" type="Success" name="AlertBoxs.resx" path="D:\source\CarWash\CarWash\Custom Controls\AlertBoxs.resx" />
+  <event action="Analyze" type="Success" name="WaitForm.resx" path="D:\source\CarWash\CarWash\Custom Controls\WaitForm.resx" />
+  <event action="Analyze" type="Success" name="frmAperturaCaja.resx" path="D:\source\CarWash\CarWash\Forms\Cajas\frmAperturaCaja.resx" />
+  <event action="Analyze" type="Success" name="frmCierreCaja.resx" path="D:\source\CarWash\CarWash\Forms\Cajas\frmCierreCaja.resx" />
+  <event action="Analyze" type="Success" name="frmConexionManual.resx" path="D:\source\CarWash\CarWash\Forms\Configuraciones\frmConexionManual.resx" />
+  <event action="Analyze" type="Success" name="Form1.resx" path="D:\source\CarWash\CarWash\Forms\Form1.resx" />
+  <event action="Analyze" type="Success" name="frmKardex.resx" path="D:\source\CarWash\CarWash\Forms\Inventario\frmKardex.resx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\source\CarWash\CarWash\Forms\Login\Correo.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\source\CarWash\CarWash\Forms\Login\Correo.html" />
+  <event action="Analyze" type="Success" name="Correo.html" path="D:\source\CarWash\CarWash\Forms\Login\Correo.html" />
+  <event action="Analyze" type="Success" name="frmLogin.resx" path="D:\source\CarWash\CarWash\Forms\Login\frmLogin.resx" />
+  <event action="Analyze" type="Success" name="frmPrincipalVentas.resx" path="D:\source\CarWash\CarWash\Forms\Principal\frmPrincipalVentas.resx" />
+  <event action="Analyze" type="Success" name="frmGrupos.resx" path="D:\source\CarWash\CarWash\Forms\Productos\frmGrupos.resx" />
+  <event action="Analyze" type="Success" name="frmProductos.resx" path="D:\source\CarWash\CarWash\Forms\Productos\frmProductos.resx" />
+  <event action="Analyze" type="Success" name="frmProducts.resx" path="D:\source\CarWash\CarWash\Forms\Productos\frmProducts.resx" />
+  <event action="Analyze" type="Success" name="frmInterfazUsuario.resx" path="D:\source\CarWash\CarWash\Forms\Usuarios\frmInterfazUsuario.resx" />
+  <event action="Analyze" type="Success" name="frmUsuarios.resx" path="D:\source\CarWash\CarWash\Forms\Usuarios\frmUsuarios.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\source\CarWash\CarWash\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\source\CarWash\CarWash\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\source\CarWash\CarWash\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\source\CarWash\CarWash\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\source\CarWash\CarWash\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\source\CarWash\CarWash\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="D:\source\CarWash\CarWash\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="D:\source\CarWash\CarWash\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="frmReporteInventario.resx" path="D:\source\CarWash\CarWash\Reportes\Kardex\ReportInventarios\frmReporteInventario.resx" />
+  <event action="Analyze" type="Success" name="rpInventarios.resx" path="D:\source\CarWash\CarWash\Reportes\Kardex\ReportInventarios\rpInventarios.resx" />
+  <event action="Analyze" type="Success" name="CarWash" path="D:\source\CarWash\CarWash\CarWash.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\source\CarWash\DataAccess\DataAccess.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\source\CarWash\DataAccess\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\source\CarWash\DataAccess\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\source\CarWash\DataAccess\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\source\CarWash\DataAccess\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\source\CarWash\DataAccess\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\source\CarWash\DataAccess\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="D:\source\CarWash\DataAccess\packages.config" />
+  <event action="Analyze" type="Success" name="DataAccess" path="D:\source\CarWash\DataAccess\DataAccess.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\source\CarWash\Domain\Domain.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\source\CarWash\Domain\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\source\CarWash\Domain\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\source\CarWash\Domain\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\source\CarWash\Domain\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\source\CarWash\Domain\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\source\CarWash\Domain\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="D:\source\CarWash\Domain\packages.config" />
+  <event action="Analyze" type="Success" name="Domain" path="D:\source\CarWash\Domain\Domain.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\source\CarWash\Common\Common.csproj" />
+  <event action="Analyze" type="Success" name="Common" path="D:\source\CarWash\Common\Common.csproj" />
+  <event action="Analyze" type="Success" name="CarWash" path="D:\source\CarWash\CarWash.sln" />
+  <event action="Backup" type="Success" name="CarWash" path="D:\source\CarWash\CarWash\CarWash.csproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="D:\source\CarWash\CarWash\CarWash.csproj" />
+  <event action="Upgrade" type="Success" name="CarWash" path="D:\source\CarWash\CarWash\CarWash.csproj" />
+  <event action="Upgrade" type="Success" name="CarWash" path="D:\source\CarWash\CarWash.sln" />
+</log>

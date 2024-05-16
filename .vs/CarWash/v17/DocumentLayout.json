@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\source\\CarWash\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|d:\\source\\carwash\\carwash\\forms\\productos\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\forms\\productos\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|d:\\source\\carwash\\carwash\\forms\\configuraciones\\asistenteinstalacion\\frmservidorremoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\forms\\configuraciones\\asistenteinstalacion\\frmservidorremoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|d:\\source\\carwash\\carwash\\forms\\inventario\\frmkardex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\forms\\inventario\\frmkardex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|d:\\source\\carwash\\carwash\\forms\\principal\\frmprincipalventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\forms\\principal\\frmprincipalventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|d:\\source\\carwash\\carwash\\forms\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\forms\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|D:\\source\\CarWash\\carwash\\forms\\principal\\frmprincipalventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\forms\\principal\\frmprincipalventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|D:\\source\\CarWash\\carwash\\forms\\usuarios\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\forms\\usuarios\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|D:\\source\\CarWash\\carwash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|D:\\source\\CarWash\\carwash\\forms\\productos\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EF520D5-9D4B-4A15-AD2C-0B1C68D677A0}|CarWash\\CarWash.csproj|solutionrelative:carwash\\forms\\productos\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,23 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\Forms\\Login\\frmLogin.cs",
-              "RelativeDocumentMoniker": "CarWash\\Forms\\Login\\frmLogin.cs",
-              "ToolTip": "D:\\source\\CarWash\\CarWash\\Forms\\Login\\frmLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CarWash\\Forms\\Login\\frmLogin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T06:54:05.888Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -61,58 +41,44 @@
               "ToolTip": "D:\\source\\CarWash\\CarWash\\Forms\\Principal\\frmPrincipalVentas.cs [Dise\u00F1o]",
               "RelativeToolTip": "CarWash\\Forms\\Principal\\frmPrincipalVentas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:32:23.179Z",
+              "WhenOpened": "2024-05-14T04:55:57.379Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmProductos.cs",
-              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\Forms\\Productos\\frmProductos.cs",
-              "RelativeDocumentMoniker": "CarWash\\Forms\\Productos\\frmProductos.cs",
-              "ToolTip": "D:\\source\\CarWash\\CarWash\\Forms\\Productos\\frmProductos.cs",
-              "RelativeToolTip": "CarWash\\Forms\\Productos\\frmProductos.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "frmKardex.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\Forms\\Inventario\\frmKardex.cs",
+              "RelativeDocumentMoniker": "CarWash\\Forms\\Inventario\\frmKardex.cs",
+              "ToolTip": "D:\\source\\CarWash\\CarWash\\Forms\\Inventario\\frmKardex.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CarWash\\Forms\\Inventario\\frmKardex.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:17:07.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T04:41:13.406Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\Forms\\Productos\\frmProductos.cs",
-              "RelativeDocumentMoniker": "CarWash\\Forms\\Productos\\frmProductos.cs",
-              "ToolTip": "D:\\source\\CarWash\\CarWash\\Forms\\Productos\\frmProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CarWash\\Forms\\Productos\\frmProductos.cs [Dise\u00F1o]",
+              "Title": "frmServidorRemoto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\Forms\\Configuraciones\\AsistenteInstalacion\\frmServidorRemoto.cs",
+              "RelativeDocumentMoniker": "CarWash\\Forms\\Configuraciones\\AsistenteInstalacion\\frmServidorRemoto.cs",
+              "ToolTip": "D:\\source\\CarWash\\CarWash\\Forms\\Configuraciones\\AsistenteInstalacion\\frmServidorRemoto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CarWash\\Forms\\Configuraciones\\AsistenteInstalacion\\frmServidorRemoto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T05:44:24.749Z",
+              "WhenOpened": "2024-05-14T04:37:56.647Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\Forms\\Usuarios\\frmUsuarios.cs",
-              "RelativeDocumentMoniker": "CarWash\\Forms\\Usuarios\\frmUsuarios.cs",
-              "ToolTip": "D:\\source\\CarWash\\CarWash\\Forms\\Usuarios\\frmUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CarWash\\Forms\\Usuarios\\frmUsuarios.cs [Dise\u00F1o]",
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\Forms\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "CarWash\\Forms\\Login\\frmLogin.cs",
+              "ToolTip": "D:\\source\\CarWash\\CarWash\\Forms\\Login\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CarWash\\Forms\\Login\\frmLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T05:32:53.226Z",
+              "WhenOpened": "2024-05-14T04:36:40.802Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\source\\CarWash\\CarWash\\Program.cs",
-              "RelativeDocumentMoniker": "CarWash\\Program.cs",
-              "ToolTip": "D:\\source\\CarWash\\CarWash\\Program.cs",
-              "RelativeToolTip": "CarWash\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T05:19:31.13Z",
-              "EditorCaption": ""
             }
           ]
         }

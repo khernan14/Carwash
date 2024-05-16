@@ -38,7 +38,7 @@ namespace DataAccess.SqlServer {
                 txtConnection.Text = (aes.Decrypt( dbcnString, DesencryptedConnection.appPwdUnique, int.Parse( "256" ) ));
 
             } catch ( System.Security.Cryptography.CryptographicException ex ) {
-
+                MessageDialog.Show(ex.Message);
             }
         }
 
@@ -58,6 +58,7 @@ namespace DataAccess.SqlServer {
                         return true;
                     }
                 } catch ( Exception ex ) {
+                    MessageDialog.Show( ex.Message );
                     return false;
                 }
             }

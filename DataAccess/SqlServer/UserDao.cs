@@ -20,7 +20,6 @@ using Common;
 
 namespace DataAccess.SqlServer {
     public class UserDao : ConnectionToSql {
-        private SqlDataReader leer;
         private DataTable table = new DataTable();
         private AES aes = new AES();
 
@@ -129,7 +128,7 @@ namespace DataAccess.SqlServer {
                             b.Size = new Size( 180, 73 );
                             b.Font = new Font( "Poppins", 14 );
                             b.FlatStyle = FlatStyle.Flat;
-                            b.BackColor = Color.FromArgb( 10, 10, 10 );
+                            b.BackColor = Color.FromArgb( 32, 33, 36);
                             b.ForeColor = Color.Silver;
                             b.Dock = DockStyle.Bottom;
                             b.TextAlign = ContentAlignment.MiddleCenter;
@@ -137,7 +136,7 @@ namespace DataAccess.SqlServer {
 
                             panel.Size = new Size( 180, 242 );
                             panel.BorderStyle = (System.Drawing.Drawing2D.DashStyle)BorderStyle.None;
-                            panel.BackColor = Color.FromArgb(10, 10, 10);
+                            panel.BackColor = Color.FromArgb( 32, 33, 36 );
 
                             image.Size = new Size( 180, 169 );
                             image.Dock = DockStyle.Top;

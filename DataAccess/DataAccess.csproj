@@ -47,9 +47,14 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Reporting, Version=16.0.22.119, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.ReportViewer.WinForms, Version=16.0.22.119, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CRUDS\CajasDA.cs" />
+    <Compile Include="CRUDS\GruposDA.cs" />
+    <Compile Include="CRUDS\KardexDA.cs" />
+    <Compile Include="CRUDS\ProductosDA.cs" />
     <Compile Include="CRUDS\UsuariosDA.cs" />
     <Compile Include="MailServices\MasterMailServer.cs" />
     <Compile Include="MailServices\SystemSupportMail.cs" />
@@ -60,6 +65,7 @@
     <Compile Include="SqlServer\DesencryptedConnection.cs" />
     <Compile Include="SqlServer\EncryptedConnection.cs" />
     <Compile Include="SqlServer\UserDao.cs" />
+    <Compile Include="SqlServer\WinAutocomplete.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">

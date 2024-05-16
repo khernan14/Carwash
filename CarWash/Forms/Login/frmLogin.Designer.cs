@@ -40,7 +40,6 @@
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblLicencia = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblCambiarUser = new System.Windows.Forms.LinkLabel();
             this.lblRecuperarPassword = new System.Windows.Forms.LinkLabel();
             this.btnIniciarSesion = new Guna.UI2.WinForms.Guna2Button();
@@ -61,14 +60,15 @@
             this.lblLogin = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblSerialPC = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlAll.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.pnlRecoverPass.SuspendLayout();
             this.pnlCodigo.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.flowLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -220,7 +220,7 @@
             this.guna2ControlBox1.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
             this.guna2ControlBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2ControlBox1.CustomIconSize = 12F;
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox1.Location = new System.Drawing.Point(1337, 13);
             this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -244,7 +244,7 @@
             this.pnlCodigo.Controls.Add(this.btnBorrarTodo);
             this.pnlCodigo.Controls.Add(this.flowLayoutPanel2);
             this.pnlCodigo.Controls.Add(this.guna2HtmlLabel3);
-            this.pnlCodigo.Location = new System.Drawing.Point(42, 468);
+            this.pnlCodigo.Location = new System.Drawing.Point(32, 470);
             this.pnlCodigo.Name = "pnlCodigo";
             this.pnlCodigo.Size = new System.Drawing.Size(112, 23);
             this.pnlCodigo.TabIndex = 0;
@@ -299,17 +299,6 @@
             this.lblLicencia.TabIndex = 285;
             this.lblLicencia.Text = "Licencia";
             // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(19, 754);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(25, 25);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox2.TabIndex = 284;
-            this.guna2PictureBox2.TabStop = false;
-            // 
             // lblCambiarUser
             // 
             this.lblCambiarUser.ActiveLinkColor = System.Drawing.Color.Red;
@@ -356,6 +345,7 @@
             // 
             // btnBorrar
             // 
+            this.btnBorrar.BorderRadius = 10;
             this.btnBorrar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnBorrar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnBorrar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -374,6 +364,7 @@
             // 
             // btn0
             // 
+            this.btn0.BorderRadius = 10;
             this.btn0.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn0.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn0.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -391,6 +382,7 @@
             // 
             // btnBorrarTodo
             // 
+            this.btnBorrarTodo.BorderRadius = 10;
             this.btnBorrarTodo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnBorrarTodo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnBorrarTodo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -424,6 +416,7 @@
             // 
             // btn1
             // 
+            this.btn1.BorderRadius = 10;
             this.btn1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -441,6 +434,7 @@
             // 
             // btn2
             // 
+            this.btn2.BorderRadius = 10;
             this.btn2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -458,6 +452,7 @@
             // 
             // btn3
             // 
+            this.btn3.BorderRadius = 10;
             this.btn3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -475,6 +470,7 @@
             // 
             // btn4
             // 
+            this.btn4.BorderRadius = 10;
             this.btn4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -492,6 +488,7 @@
             // 
             // btn5
             // 
+            this.btn5.BorderRadius = 10;
             this.btn5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -509,6 +506,7 @@
             // 
             // btn6
             // 
+            this.btn6.BorderRadius = 10;
             this.btn6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -526,6 +524,7 @@
             // 
             // btn7
             // 
+            this.btn7.BorderRadius = 10;
             this.btn7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -543,6 +542,7 @@
             // 
             // btn8
             // 
+            this.btn8.BorderRadius = 10;
             this.btn8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -560,6 +560,7 @@
             // 
             // btn9
             // 
+            this.btn9.BorderRadius = 10;
             this.btn9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -580,7 +581,7 @@
             this.guna2HtmlLabel3.AutoSize = false;
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins", 1025F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Silver;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(0, 0);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
@@ -617,6 +618,17 @@
             this.lblSerialPC.Text = "Serial";
             this.lblSerialPC.Visible = false;
             // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(19, 754);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(25, 25);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox2.TabIndex = 284;
+            this.guna2PictureBox2.TabStop = false;
+            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BorderRadius = 10;
@@ -633,7 +645,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
             this.ClientSize = new System.Drawing.Size(1382, 852);
             this.Controls.Add(this.pnlRecoverPass);
             this.Controls.Add(this.lblSerialPC);
@@ -655,8 +667,8 @@
             this.pnlCodigo.ResumeLayout(false);
             this.pnlCodigo.PerformLayout();
             this.guna2Panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.flowLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

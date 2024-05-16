@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
 using System.IO;
+using Guna.UI2.WinForms;
 
 namespace DataAccess.SqlServer {
      class AES {
@@ -69,6 +70,7 @@ namespace DataAccess.SqlServer {
                     return String.Concat( Bits );
                 }
             } catch ( Exception ex ) {
+                MessageDialog.Show( ex.Message );
                 return String.Concat( Bits );
             }
         }

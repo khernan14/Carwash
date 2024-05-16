@@ -50,6 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CRUDS\CajasD.cs" />
+    <Compile Include="CRUDS\GruposD.cs" />
+    <Compile Include="CRUDS\KardexD.cs" />
+    <Compile Include="CRUDS\ProductosD.cs" />
     <Compile Include="CRUDS\UsuariosD.cs" />
     <Compile Include="Metodos\MetodosListados.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,6 +60,7 @@
     <Compile Include="SqlServer\EncryptedAndDesencrypted.cs" />
     <Compile Include="SqlServer\UserModel.cs" />
     <Compile Include="Metodos\Validaciones.cs" />
+    <Compile Include="SqlServer\WinAutoCompleteMode.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">

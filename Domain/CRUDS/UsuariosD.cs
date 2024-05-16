@@ -1,4 +1,5 @@
 ﻿using DataAccess.CRUDS;
+using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -11,7 +12,7 @@ namespace Domain {
     public class UsuariosD {
         private UsuariosDA usuarios = new UsuariosDA();
 
-        public DataTable Mostrar() {
+        public DataTable ListarUsuarios() {
             DataTable tabla = new DataTable();
             tabla = usuarios.Mostrar();
             return tabla;
@@ -39,6 +40,10 @@ namespace Domain {
             DataTable tabla = new DataTable();
             tabla = usuarios.Buscar( buscar );
             return tabla;
+        }
+
+        public bool MostrarUsuarios( FlowLayoutPanel flPanel, EventHandler myEventLabel, string buscar, string usuario ) {
+            return usuarios.MostrarUsuarios( flPanel, myEventLabel, buscar, usuario );
         }
     }
 }

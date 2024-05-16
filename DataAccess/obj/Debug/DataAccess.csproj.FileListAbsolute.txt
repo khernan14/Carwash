@@ -2,7 +2,13 @@ D:\source\CarWash\DataAccess\bin\Debug\DataAccess.dll
 D:\source\CarWash\DataAccess\bin\Debug\DataAccess.pdb
 D:\source\CarWash\DataAccess\bin\Debug\Common.dll
 D:\source\CarWash\DataAccess\bin\Debug\Guna.UI2.dll
+D:\source\CarWash\DataAccess\bin\Debug\Telerik.Reporting.dll
+D:\source\CarWash\DataAccess\bin\Debug\Telerik.ReportViewer.WinForms.dll
 D:\source\CarWash\DataAccess\bin\Debug\Common.pdb
+D:\source\CarWash\DataAccess\bin\Debug\Telerik.Reporting.pdb
+D:\source\CarWash\DataAccess\bin\Debug\Telerik.Reporting.xml
+D:\source\CarWash\DataAccess\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+D:\source\CarWash\DataAccess\bin\Debug\Telerik.ReportViewer.WinForms.xml
 D:\source\CarWash\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
 D:\source\CarWash\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
 D:\source\CarWash\DataAccess\obj\Debug\DataAccess.csproj.Up2Date

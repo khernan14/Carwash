@@ -5,6 +5,7 @@ using System.Net.Mail;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Guna.UI2.WinForms;
 
 namespace DataAccess.MailServices {
     public abstract class MasterMailServer {
@@ -36,7 +37,7 @@ namespace DataAccess.MailServices {
                 mailMessage.Priority = MailPriority.Normal;
                 mailMessage.IsBodyHtml = true;
                 smtpClient.Send( mailMessage );//Enviar mensaje
-            } catch ( Exception ex ) { } finally {
+            } catch ( Exception ex ) { MessageDialog.Show( ex.Message ); } finally {
                 mailMessage.Dispose();
                 smtpClient.Dispose();
             }

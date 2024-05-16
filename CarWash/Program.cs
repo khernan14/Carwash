@@ -1,7 +1,10 @@
 ﻿using CarWash.Forms;
 using CarWash.Forms.Cajas;
 using CarWash.Forms.Configuraciones;
+using CarWash.Forms.Configuraciones.AsistenteInstalacion;
+using CarWash.Forms.Inventario;
 using CarWash.Forms.Productos;
+using CarWash.Reportes.Kardex.ReportInventarios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +20,7 @@ namespace CarWash {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault( false );
-            Application.Run( new frmProductos() );
+            Application.Run( new frmServidorRemoto() );
         }
     }
 }
