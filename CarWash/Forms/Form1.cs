@@ -16,7 +16,7 @@ namespace CarWash.Forms {
         }
 
         private void ShowToast(string type, string message) {
-            AlertBoxs alert = new AlertBoxs(type, message);
+            AlertBoxs alert = new AlertBoxs(type, message, this);
             alert.ShowDialog();
         }
 

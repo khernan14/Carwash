@@ -1,0 +1,67 @@
+
+USE [dbCarwash]
+GO
+CREATE PROCEDURE [dbo].[CRUD_USUARIOS]
+@nombres nvarchar(60) = null,
+@usuario nvarchar(50) = null,
+@password nvarchar(50) = null,
+@icono image = null,
+@nombreIcono nvarchar(max) = null,
+@correo nvarchar(300) = null,
+@rol nvarchar(max) = null,
+@codigo int = null,
+@buscar nvarchar(max) = null,
+@accion nvarchar(50) = null
+AS
+BEGIN
+	IF(@accion = 'Mostrar')
+	BEGIN
+		SELECT usuarioID, nombres AS [Nombre Completo], usuario AS Usuario, password AS Contraseña, icono, nombreIcono, correo AS Correo, rol
+		FROM usuarios
+		WHERE estado = 'Activo'
+	END
+
+	IF(@accion = 'Insertar')
+	BEGIN
+		IF EXISTS(SELECT usuario FROM usuarios WHERE (usuario = @usuario AND estado = 'Activo'))
+			RAISERROR('El usuario ya existe, Por favor intente de nuevo', 16, 1);
+		ELSE
+			INSERT INTO usuarios
+				VALUES (
+					@nombres, @usuario, @password, @icono, @nombreIcono, @correo, @rol, 'Activo'
+				)
+	END
+
+	IF(@accion = 'Actualizar')
+	BEGIN
+		IF EXISTS(SELECT usuario, usuarioID FROM usuarios WHERE (usuario = @usuario AND usuarioID <> @codigo AND estado = 'Activo') OR (nombres	= @nombres AND usuarioID <> @codigo AND estado = 'Activo'))
+			RAISERROR('El usuario ya existe, Por favor intente de nuevo', 16, 1);
+		ELSE
+			UPDATE usuarios SET
+				 nombres = @nombres
+				,usuario = @usuario
+				,password = @password
+				,icono = @icono
+				,nombreIcono = @nombreIcono
+				,correo = @correo
+				,rol = @rol
+			WHERE usuarioID = @codigo
+	END
+
+	IF(@accion = 'Eliminar')
+	BEGIN
+		IF EXISTS(SELECT usuario FROM usuarios WHERE usuario = 'Administrador')
+			RAISERROR('El usuario Administrador no se puede eliminar, si se borra le quitas el acceso al sistema', 16, 1)
+		ELSE
+			UPDATE usuarios
+			SET estado = 'Eliminado'
+			WHERE usuarioID = @codigo AND usuario <> 'Administrador'
+	END
+
+	IF(@accion = 'Buscar')
+	BEGIN
+		SELECT usuarioID, nombres AS [Nombre Completo], usuario AS Usuario, password AS Contraseña, icono, nombreIcono, correo AS Correo, rol
+		FROM usuarios
+		WHERE nombres + usuario + correo LIKE '%' + @buscar + '%' AND estado = 'Activo'
+	END
+END

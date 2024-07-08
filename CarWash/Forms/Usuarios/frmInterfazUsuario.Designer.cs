@@ -39,6 +39,7 @@
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.pnlDataGrid = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -68,7 +69,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.lblCodigo = new System.Windows.Forms.Label();
-            this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.pnlButtonsBar.SuspendLayout();
             this.pnlTitleBar.SuspendLayout();
             this.pnlDataGrid.SuspendLayout();
@@ -289,6 +289,24 @@
             this.pnlDataGrid.Name = "pnlDataGrid";
             this.pnlDataGrid.Size = new System.Drawing.Size(960, 704);
             this.pnlDataGrid.TabIndex = 1;
+            // 
+            // guna2VScrollBar1
+            // 
+            this.guna2VScrollBar1.AutoRoundedCorners = true;
+            this.guna2VScrollBar1.BindingContainer = this.pnlUsuarios;
+            this.guna2VScrollBar1.BorderRadius = 8;
+            this.guna2VScrollBar1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
+            this.guna2VScrollBar1.HoverState.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.guna2VScrollBar1.InUpdate = false;
+            this.guna2VScrollBar1.LargeChange = 10;
+            this.guna2VScrollBar1.Location = new System.Drawing.Point(920, 89);
+            this.guna2VScrollBar1.MouseWheelBarPartitions = 20;
+            this.guna2VScrollBar1.Name = "guna2VScrollBar1";
+            this.guna2VScrollBar1.ScrollbarSize = 19;
+            this.guna2VScrollBar1.Size = new System.Drawing.Size(19, 517);
+            this.guna2VScrollBar1.TabIndex = 4;
+            this.guna2VScrollBar1.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
+            this.guna2VScrollBar1.ThumbSize = 150F;
             // 
             // guna2Panel1
             // 
@@ -779,24 +797,6 @@
             this.lblCodigo.TabIndex = 342;
             this.lblCodigo.Text = "Codigo";
             this.lblCodigo.Visible = false;
-            // 
-            // guna2VScrollBar1
-            // 
-            this.guna2VScrollBar1.AutoRoundedCorners = true;
-            this.guna2VScrollBar1.BindingContainer = this.pnlUsuarios;
-            this.guna2VScrollBar1.BorderRadius = 8;
-            this.guna2VScrollBar1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.guna2VScrollBar1.HoverState.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.guna2VScrollBar1.InUpdate = false;
-            this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(920, 89);
-            this.guna2VScrollBar1.MouseWheelBarPartitions = 20;
-            this.guna2VScrollBar1.Name = "guna2VScrollBar1";
-            this.guna2VScrollBar1.ScrollbarSize = 19;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(19, 517);
-            this.guna2VScrollBar1.TabIndex = 4;
-            this.guna2VScrollBar1.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.guna2VScrollBar1.ThumbSize = 150F;
             // 
             // frmInterfazUsuario
             // 

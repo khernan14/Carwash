@@ -98,11 +98,29 @@
     <Compile Include="Forms\Cajas\frmCierreCaja.Designer.cs">
       <DependentUpon>frmCierreCaja.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Configuraciones\AsistenteInstalacion\frmInstalacionServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Configuraciones\AsistenteInstalacion\frmInstalacionServer.Designer.cs">
+      <DependentUpon>frmInstalacionServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Configuraciones\AsistenteInstalacion\frmRegistroEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Configuraciones\AsistenteInstalacion\frmRegistroEmpresa.Designer.cs">
+      <DependentUpon>frmRegistroEmpresa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Configuraciones\AsistenteInstalacion\frmServidorRemoto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Configuraciones\AsistenteInstalacion\frmServidorRemoto.Designer.cs">
       <DependentUpon>frmServidorRemoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Configuraciones\AsistenteInstalacion\frmUsuariosAuth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Configuraciones\AsistenteInstalacion\frmUsuariosAuth.Designer.cs">
+      <DependentUpon>frmUsuariosAuth.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Configuraciones\frmConexionManual.cs">
       <SubType>Form</SubType>
@@ -190,8 +208,17 @@
     <EmbeddedResource Include="Forms\Cajas\frmCierreCaja.resx">
       <DependentUpon>frmCierreCaja.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Configuraciones\AsistenteInstalacion\frmInstalacionServer.resx">
+      <DependentUpon>frmInstalacionServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Configuraciones\AsistenteInstalacion\frmRegistroEmpresa.resx">
+      <DependentUpon>frmRegistroEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Configuraciones\AsistenteInstalacion\frmServidorRemoto.resx">
       <DependentUpon>frmServidorRemoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Configuraciones\AsistenteInstalacion\frmUsuariosAuth.resx">
+      <DependentUpon>frmUsuariosAuth.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Configuraciones\frmConexionManual.resx">
       <DependentUpon>frmConexionManual.cs</DependentUpon>

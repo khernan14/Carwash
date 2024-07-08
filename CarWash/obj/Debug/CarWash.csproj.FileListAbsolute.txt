@@ -26,6 +26,10 @@ D:\source\CarWash\CarWash\obj\Debug\CarWash.Custom_Controls.AlertBoxs.resources
 D:\source\CarWash\CarWash\obj\Debug\CarWash.Custom_Controls.WaitForm.resources
 D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.Cajas.frmAperturaCaja.resources
 D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.Cajas.frmCierreCaja.resources
+D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.Configuraciones.AsistenteInstalacion.frmInstalacionServer.resources
+D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.Configuraciones.AsistenteInstalacion.frmRegistroEmpresa.resources
+D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.Configuraciones.AsistenteInstalacion.frmServidorRemoto.resources
+D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.Configuraciones.AsistenteInstalacion.frmUsuariosAuth.resources
 D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.Configuraciones.frmConexionManual.resources
 D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.Form1.resources
 D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.Inventario.frmKardex.resources
@@ -38,11 +42,10 @@ D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.frmLogin.resources
 D:\source\CarWash\CarWash\obj\Debug\CarWash.frmUsuarios.resources
 D:\source\CarWash\CarWash\obj\Debug\CarWash.Properties.Resources.resources
 D:\source\CarWash\CarWash\obj\Debug\CarWash.Reportes.Kardex.ReportInventarios.frmReporteInventario.resources
+D:\source\CarWash\CarWash\obj\Debug\CarWash.Reportes.Kardex.ReportInventarios.rpInventario.resources
 D:\source\CarWash\CarWash\obj\Debug\CarWash.csproj.GenerateResource.cache
 D:\source\CarWash\CarWash\obj\Debug\CarWash.exe.licenses
 D:\source\CarWash\CarWash\obj\Debug\CarWash.csproj.CoreCompileInputs.cache
 D:\source\CarWash\CarWash\obj\Debug\CarWash.csproj.Up2Date
 D:\source\CarWash\CarWash\obj\Debug\CarWash.exe
 D:\source\CarWash\CarWash\obj\Debug\CarWash.pdb
-D:\source\CarWash\CarWash\obj\Debug\CarWash.Reportes.Kardex.ReportInventarios.rpInventario.resources
-D:\source\CarWash\CarWash\obj\Debug\CarWash.Forms.Configuraciones.AsistenteInstalacion.frmServidorRemoto.resources

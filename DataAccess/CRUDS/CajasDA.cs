@@ -40,6 +40,51 @@ namespace DataAccess.CRUDS {
             return table;
         }
 
+        public DataTable InsertarCajas(string descripcion, string serialPC) {
+            using ( var connection = GetConnection() ) {
+                connection.Open();
+                using ( var command = new SqlCommand() ) {
+                    command.Connection = connection;
+                    command.CommandText = "CRUD_CAJAS";
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Clear();
+                    command.Parameters.AddWithValue( "@descripcion", descripcion );
+                    command.Parameters.AddWithValue( "@serialPC", serialPC );
+                    command.Parameters.AddWithValue( "@impresoraTicket", "Ninguna");
+                    command.Parameters.AddWithValue( "@impresoraA4", "Ninguna" );
+                    command.Parameters.AddWithValue( "@tipoCaja", "PRINCIPAL" );
+                    command.Parameters.AddWithValue( "@accion", "Insertar" );
+                    leer = command.ExecuteReader();
+                    table.Load( leer );
+                    connection.Close();
+                }
+            }
+            return table;
+        }
+
+        public DataTable InsertarSerializacion( string serie, string cantidadNumeros, string numeroFin, string destino, string tipoDocumento, string forDafault ) {
+            using ( var connection = GetConnection() ) {
+                connection.Open();
+                using ( var command = new SqlCommand() ) {
+                    command.Connection = connection;
+                    command.CommandText = "CRUD_CAJAS";
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Clear();
+                    command.Parameters.AddWithValue( "@serie", serie );
+                    command.Parameters.AddWithValue( "@cantidadNumeros", cantidadNumeros );
+                    command.Parameters.AddWithValue( "@numeroFin", numeroFin );
+                    command.Parameters.AddWithValue( "@destino", destino );
+                    command.Parameters.AddWithValue( "@tipoDocumento", tipoDocumento );
+                    command.Parameters.AddWithValue( "@forDefault", forDafault );
+                    command.Parameters.AddWithValue( "@accion", "InsertarSerializacion" );
+                    leer = command.ExecuteReader();
+                    table.Load( leer );
+                    connection.Close();
+                }
+            }
+            return table;
+        }
+
         public DataTable EditarSaldoInicial( int cajaID, decimal saldoRestante ) {
             using ( var connection = GetConnection() ) {
                 connection.Open();

@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cache\Cargos.cs" />
+    <Compile Include="Cache\ServerInstaller.cs" />
     <Compile Include="Cache\UserLoginCache.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

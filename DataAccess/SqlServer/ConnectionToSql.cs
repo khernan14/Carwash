@@ -13,7 +13,8 @@ namespace DataAccess {
         private readonly string connectionString;
         public ConnectionToSql() {
             //connectionString = "Data Source=KHERNAN14\\SQLEXPRESS;Initial Catalog=dbCarwash; Integrated Security=True";
-            connectionString = "Data Source="+Convert.ToString( SqlServer.DesencryptedConnection.checkServer() );
+            connectionString = Convert.ToString( SqlServer.DesencryptedConnection.checkServer() );
+            Console.WriteLine( connectionString );
         }
 
         protected SqlConnection GetConnection() {

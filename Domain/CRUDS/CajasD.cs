@@ -16,6 +16,18 @@ namespace Domain.CRUDS {
             return tabla;
         }
 
+        public DataTable InsertarCajas( string descripcion, string serialPC ) {
+            DataTable tabla = new DataTable();
+            tabla = cajas.InsertarCajas( descripcion, serialPC );
+            return tabla;
+        }
+        
+        public DataTable InsertarSerializacion( string serie, string cantidadNumeros, string numeroFin, string destino, string tipoDocumento, string forDafault ) {
+            DataTable tabla = new DataTable();
+            tabla = cajas.InsertarSerializacion( serie, cantidadNumeros, numeroFin, destino, tipoDocumento, forDafault );
+            return tabla;
+        }
+
         public DataTable EditarSaldoInicial( int cajaID, decimal saldoInicial ) {
             DataTable tabla = new DataTable();
             tabla = cajas.EditarSaldoInicial( cajaID, saldoInicial );

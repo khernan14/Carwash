@@ -50,14 +50,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CRUDS\CajasD.cs" />
+    <Compile Include="CRUDS\ConsumidoresD.cs" />
+    <Compile Include="CRUDS\EmpresasD.cs" />
     <Compile Include="CRUDS\GruposD.cs" />
     <Compile Include="CRUDS\KardexD.cs" />
+    <Compile Include="CRUDS\LicenciasD.cs" />
     <Compile Include="CRUDS\ProductosD.cs" />
+    <Compile Include="CRUDS\TicketsD.cs" />
     <Compile Include="CRUDS\UsuariosD.cs" />
     <Compile Include="Metodos\MetodosListados.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Metodos\TamanioDataTables.cs" />
     <Compile Include="SqlServer\EncryptedAndDesencrypted.cs" />
+    <Compile Include="SqlServer\ServerD.cs" />
     <Compile Include="SqlServer\UserModel.cs" />
     <Compile Include="Metodos\Validaciones.cs" />
     <Compile Include="SqlServer\WinAutoCompleteMode.cs" />

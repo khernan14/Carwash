@@ -15,6 +15,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Common.Cache;
 using Domain.CRUDS;
+using CarWash.Forms.Configuraciones.AsistenteInstalacion;
+using CarWash.Properties;
+using System.Data.SqlClient;
 
 namespace CarWash.Forms {
     public partial class frmLogin : Form {
@@ -22,12 +25,14 @@ namespace CarWash.Forms {
         CajasD cajas = new CajasD();
         WaitFormFunc wait = new WaitFormFunc();
 
+        private string SerialPC;
+
         public frmLogin() {
             InitializeComponent();
         }
 
         private void ShowToast( string type, string message ) {
-            AlertBoxs alert = new AlertBoxs( type, message );
+            AlertBoxs alert = new AlertBoxs( type, message, this );
             alert.ShowDialog();
         }
 
@@ -46,8 +51,10 @@ namespace CarWash.Forms {
         }
 
         private void frmLogin_Load( object sender, EventArgs e ) {
-            model.CargarUsuarios( pnlUsuarios, myEventLabel, myEventImage );
-            escalar_paneles();
+            CheckDatabaseAndUsers();
+        }
+
+        private void CheckDatabaseAndUsers() {
             timer1.Start();
         }
 
@@ -64,9 +71,9 @@ namespace CarWash.Forms {
             var resultado = model.isLoginUser( lblLogin.Text, txtPassword.Text );
             if ( resultado == true ) {
                 try {
-                    var result = model.isOpenedBox( lblSerialPC.Text, int.Parse( UserLoginCache.userID.ToString() ) );
+                    var result = model.isOpenedBox( SerialPC, int.Parse( UserLoginCache.userID.ToString() ) );
                     if ( result == false && UserLoginCache.cargo != Common.Cache.Cargos.Ventas ) {
-                        
+
                         //wait.Show( this );
                         int usuarioID = int.Parse( UserLoginCache.userID.ToString() );
                         int cajaID = int.Parse( UserLoginCache.cajaID.ToString() );
@@ -114,13 +121,39 @@ namespace CarWash.Forms {
         }
 
         private void timer1_Tick( object sender, EventArgs e ) {
+            // Detener el timer para evitar múltiples ejecuciones
+            this.Hide();
             timer1.Stop();
+
             try {
-                ManagementObjectSearcher MOS = new ManagementObjectSearcher( "SELECT * FROM Win32_BaseBoard" );
-                foreach ( ManagementObject getSerial in MOS.Get() ) {
-                    lblSerialPC.Text = getSerial.Properties[ "SerialNumber" ].Value.ToString();
-                    model.showBoxSerial( lblSerialPC.Text );
+                if ( !model.DatabaseExists() ) {
+                    Console.WriteLine( "Database does not exist." );
+                    frmServidorRemoto frm = new frmServidorRemoto();
+                    this.Hide();
+                    frm.ShowDialog();
+                    this.Close();
+                } else {
+                    Console.WriteLine( "Database exists." );
+                    if ( !model.DatabaseHasUsers() ) {
+                        Console.WriteLine( "Database has no users." );
+                        frmRegistroEmpresa frm2 = new frmRegistroEmpresa();
+                        this.Hide();
+                        frm2.ShowDialog();
+                        this.Close();
+                    } else {
+                        Console.WriteLine( "Database has users." );
+                        escalar_paneles();
+                        model.CargarUsuarios(pnlUsuarios, myEventLabel, myEventImage);
+                    }
                 }
+
+                //// Obtener el serial de la PC
+                //ManagementObjectSearcher MOS = new ManagementObjectSearcher( "SELECT * FROM Win32_BaseBoard" );
+                //foreach ( ManagementObject getSerial in MOS.Get() ) {
+                //    lblSerialPC.Text = getSerial.Properties[ "SerialNumber" ].Value.ToString();
+                //    model.showBoxSerial( lblSerialPC.Text );
+                //}
+                model.SerialCaja(SerialPC);
             } catch ( Exception ex ) {
                 ShowToast( "ERROR", ex.Message );
             }

@@ -81,7 +81,7 @@
             // 
             // toastHide
             // 
-            this.toastHide.Interval = 10;
+            this.toastHide.Interval = 20;
             this.toastHide.Tick += new System.EventHandler(this.toastHide_Tick);
             // 
             // FormularioCustom

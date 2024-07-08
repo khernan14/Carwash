@@ -10,6 +10,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using static Guna.UI2.WinForms.Suite.Descriptions;
+using Domain.Metodos;
 
 namespace DataAccess.CRUDS {
     public class UsuariosDA : ConnectionToSql {
@@ -69,7 +70,7 @@ namespace DataAccess.CRUDS {
                     command.Parameters.Clear();
                     command.Parameters.AddWithValue( "@nombres", nombres );
                     command.Parameters.AddWithValue( "@usuario", usuario );
-                    command.Parameters.AddWithValue( "@password", password );
+                    command.Parameters.AddWithValue( "@password", EncryptData.Encriptar(password) );
                     command.Parameters.AddWithValue( "@icono", icono );
                     command.Parameters.AddWithValue( "@nombreIcono", nombreIcono );
                     command.Parameters.AddWithValue( "@correo", correo );
@@ -94,7 +95,7 @@ namespace DataAccess.CRUDS {
                     command.Parameters.AddWithValue( "@codigo", codigo );
                     command.Parameters.AddWithValue( "@nombres", nombres );
                     command.Parameters.AddWithValue( "@usuario", usuario );
-                    command.Parameters.AddWithValue( "@password", password );
+                    command.Parameters.AddWithValue( "@password", EncryptData.Encriptar(password) );
                     command.Parameters.AddWithValue( "@icono", icono );
                     command.Parameters.AddWithValue( "@nombreIcono", nombreIcono );
                     command.Parameters.AddWithValue( "@correo", correo );
